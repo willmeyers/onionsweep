@@ -24,7 +24,7 @@ Pass a newline separated list of .onion URLs into `onionsweep`. For example,
 cat onions.txt | ./onionsweep -workers 3 -torlistenaddr 127.0.0.1:9050 -timeout 10 > results.txt
 ```
 
-Results tab separated list of URLs, status codes, and response times, document title, and lengths
+Results tab separated list of URLs, status codes, live/dead, and error messages (if any).
 
 ```
 http://l7....onion  403 live
